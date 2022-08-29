@@ -5,8 +5,8 @@
 // [10, 343445353, 3453445, 3453545353453] should return 3453455.
 
 function twoHighest(arr) {
-    res = arr.sort((a, b) => a - b).slice(0, 2);
-    console.log(res);
+    res = arr.sort((a, b) => a - b);
+    // console.log(res);
     let sum = res[0] + res[1]
   
   
