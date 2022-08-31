@@ -4,6 +4,11 @@
 
 // [10, 343445353, 3453445, 3453545353453] should return 3453455.
 
+// go through the list of arrays
+// Arrange the list of elements in the ascending order 
+// find the sum of first two elwments in the array
+// return sum
+
 function twoHighest(arr) {
     res = arr.sort((a, b) => a - b);
     // console.log(res);
