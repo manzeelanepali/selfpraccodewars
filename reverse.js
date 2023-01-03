@@ -5,7 +5,7 @@
 
 // pseudocode
 let array = [8, 2, 3, 4];
-let revaray = array.concat().reverse();
+let revaray = [...array].reverse();
 
 // for finding the reverse by creating the shallow copy
 
