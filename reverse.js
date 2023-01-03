@@ -4,6 +4,9 @@
 // eg : "Dobule Spaces "=> "elbuod secaps"
 
 // pseudocode
-const numbers = [1, 2, 3, 4];
-let rev = numbers.reverse();
-console.log(rev);
+let array = [8, 2, 3, 4];
+let revaray = array.concat().reverse();
+
+// for finding the reverse by creating the shallow copy
+
+console.log(revaray);
