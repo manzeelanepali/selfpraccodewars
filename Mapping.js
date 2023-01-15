@@ -9,5 +9,6 @@
 const words = ["apple", "banana", "orange"];
 
 const upperWords = words.map((word) => word.toUpperCase());
+console.log(word);
 
 console.log(upperWords);
