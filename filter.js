@@ -35,8 +35,12 @@
 //   console.log("Sorry, the item is not available :(");
 // }
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let firstEvenNumber = numbers.find(function (number) {
-  return number % 2 == 0;
-});
-console.log(firstEvenNumber);
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let firstEvenNumber = numbers.find(function (number) {
+//   return number % 2 == 0;
+// });
+// console.log(firstEvenNumber);
+
+let fruits = ["apple", "banana", "orange", "mango"];
+let index = fruits.indexOf("orange");
+console.log(index);
