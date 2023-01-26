@@ -41,6 +41,10 @@
 // });
 // console.log(firstEvenNumber);
 
+// let fruits = ["apple", "banana", "orange", "mango"];
+// let index = fruits.indexOf("orange");
+// console.log(index);
+
 let fruits = ["apple", "banana", "orange", "mango"];
 let index = fruits.indexOf("orange");
 console.log(index);
