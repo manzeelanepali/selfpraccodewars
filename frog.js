@@ -1,4 +1,4 @@
-Problem
+Problem;
 // The wide mouth frog is particularly interested in the eating habits of other creatures.
 
 // He just can't stop asking the creatures he encounters what they like to eat. But then he meet the alligator who just LOVES to eat wide-mouthed frogs!
@@ -9,9 +9,9 @@ Problem
 
 // First Solution:
 
- let mouth_size(animal):
-  animal = animal.lower();
-  if animal == "alligator":
-    return "small";
-  else:
-    return "wide";
+//  let mouth_size(animal):
+//   animal = animal.lower();
+//   if animal == "alligator":
+//     return "small";
+//   else:
+//     return "wide";
