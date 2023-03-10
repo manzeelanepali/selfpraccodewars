@@ -1,3 +1,6 @@
+//  Suppose you have an array of integers and you want to find a pair of elements that add up to a target value.
+//  using two pointer methods
+
 function twoSum(nums, target) {
   let left = 0;
   let right = nums.length - 1;
