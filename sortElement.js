@@ -1,5 +1,10 @@
-const fruits = ["banana", "apple", "orange", "grape"];
+// const fruits = ["banana", "apple", "orange", "grape"];
 
-fruits.sort();
+// fruits.sort();
 
-console.log(fruits);
+// console.log(fruits);
+const numbers = [5, 2, 8, 1, 4];
+
+numbers.sort((a, b) => b - a);
+
+console.log(numbers);
