@@ -11,10 +11,25 @@
 
 // console.log(duplicates);
 
+// const arr1 = [1, 2, 3, 4, 5];
+// const arr2 = [3, 4, 5, 6, 7];
+// const arr3 = [5, 6, 7, 8, 9];
+
+// const duplicates = arr1.filter((x) => arr2.includes(x) && arr3.includes(x));
+
+// console.log(duplicates);
 const arr1 = [1, 2, 3, 4, 5];
 const arr2 = [3, 4, 5, 6, 7];
 const arr3 = [5, 6, 7, 8, 9];
 
 const duplicates = arr1.filter((el) => arr2.includes(el) && arr3.includes(el));
 
-console.log(duplicates);
+const replacedArr1 = arr1.map((el) => {
+  if (duplicates.includes(el)) {
+    return "DUPLICATE";
+  } else {
+    return el;
+  }
+});
+
+console.log(replacedArr1);
