@@ -17,9 +17,9 @@
 
 // S = []
 // T = [1,6,5,2,3,4]
-// return T 
+// return T
 
-// pseudocode 
+// pseudocode
 // 1.Make a copy of"s"
 // 2. Remove first and last element at a time from array "cs"
 // 3.Push the removal element in the array "t"
@@ -27,20 +27,28 @@
 // 5. If cs.length is zero return "T"else repate the step 2
 //  6.return "t"
 
-function Arrange(s) {
-     let T = []
-     let CopyArray= [...s]
-     while(CopyArray.length>0){
-T.push(CopyArray[0],[CopyArray.length-1])
-let slicedArr = CopyArray.slice(1,-1)
-slicedArr.reverse()
+let s = [1, 2, 3, 4, 5, 6];
 
-
-     }
-  console.log(T)
-    
-   return T;
+function arrange(s) {
+  let initialResult = [];
+  for (let i = 0; i < s.length; i++) {
+    let currVal = s[i];
+    initialResult.push(s[0]);
   }
-  
-  
-  Arrange([1, 2, 3, 4, 5])
+}
+
+// function Arrange(s) {
+//      let T = []
+//      let CopyArray= [...s]
+//      while(CopyArray.length>0){
+// T.push(CopyArray[0],[CopyArray.length-1])
+// let slicedArr = CopyArray.slice(1,-1)
+// slicedArr.reverse()
+
+//      }
+//   console.log(T)
+
+//    return T;
+//   }
+
+//   Arrange([1, 2, 3, 4, 5])
