@@ -30,8 +30,17 @@
 //   // }
 // }
 
-const fruits = ["banana", "apple", "orange", "grape"];
+// const fruits = ["banana", "apple", "orange", "grape"];
 
-fruits.sort();
+// fruits.sort();
 
-console.log(fruits);
+// console.log(fruits);
+
+Array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+sum = 9;
+
+function addition(Array) {
+  for (let i = 0; i < Array.length; i++) {
+    let currVal = Array[i];
+  }
+}
